@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2851px" height="269px" viewBox="0 0 2851 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.0058594%" y1="96.859467%" x2="49.9050781%" y2="14.1264419%" id="linearGradient-1">
+            <stop stop-color="#ED4758" offset="9%"></stop>
+            <stop stop-color="#FCBD01" offset="99%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.01875%" y1="96.2397603%" x2="49.9714844%" y2="-2.96175736%" id="linearGradient-2">
+            <stop stop-color="#ED4758" offset="8%"></stop>
+            <stop stop-color="#796EFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9304688%" y1="98.0642626%" x2="50.2761719%" y2="-4.27612143%" id="linearGradient-3">
+            <stop stop-color="#ED4758" offset="8%"></stop>
+            <stop stop-color="#5A50C7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.25781251%" y1="49.7500002%" x2="101.257813%" y2="49.7500002%" id="linearGradient-4">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="100%"></stop>
+            <stop stop-color="#B4EC51" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill-rule="nonzero">
+            <g id="wave">
+                <g id="Gradients">
+                    <path d="M0,144.833247 C224.426773,105.898299 617.341094,108.719062 868.700781,144.725833 C1462.01172,229.722361 1976.1082,277.175642 2722,242.616615 L2722,265.967309 L0,265.967309 L0,144.833247 Z" id="Shape" fill="url(#linearGradient-1)" opacity="0"></path>
+                    <path d="M2722,38.5286458 C2512.00195,-0.0326909722 2141.04439,-30.4960069 1799.07187,55.7240972 C1389.70859,158.934167 1151.00195,296.988142 0,246.550642 L0,268.967309 L2722,268.967309 L2722,38.5286458 Z" id="Shape" fill="url(#linearGradient-2)" opacity="0.48203125"></path>
+                </g>
+                <g id="Backdrop">
+                    <path d="M1799.07187,55.7240972 C1612.99766,102.630972 1462.21374,156.739201 1244.99602,197.079861 C1121.16628,182.672483 996.783641,166.074809 868.700781,147.725833 C617.341094,111.719062 224.426773,108.898299 0,147.833247 L0,268.967309 L2722,268.967309 L2722,38.5286458 C2512.00195,-0.0326909722 2141.04439,-30.4913368 1799.07187,55.7240972 Z" id="Shape" fill="url(#linearGradient-3)" opacity="0"></path>
+                    <path d="M0,147.833247 C224.426773,108.898299 617.341094,111.719062 868.700781,147.725833 C1462.01172,232.722361 1976.1082,280.175642 2722,245.616615 L2722,268.967309 L0,268.967309 L0,147.833247 Z" id="Shape" fill="url(#linearGradient-4)" opacity="0.419157609"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

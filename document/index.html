@@ -1,0 +1,614 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="assets\images\fevicon.ico">
+	<title>Digi Vehicle Booking System - Online Cab Booking</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Samson">
+	<meta name="copyright" content="Samson">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		p{
+		
+		font-size: 14px;
+		color: black;
+
+	}
+	h6{
+		
+		color: #964a7b;
+	}
+
+	h5{
+		
+		color: green;
+	}
+	h4{
+		
+	color: #057205;
+	}
+	h3{
+		
+		color: #707698;font-weight: 600;
+	}
+	h1{
+		
+		color: #26a59d ;
+	}
+	h2{
+		
+		color: #6ec382;
+	}
+	
+
+
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/logo.png);}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#35425C), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#4f5467;color:#FFFFFF;}
+		
+		
+	
+		#documenter_sidebar ul a:hover{background:#707698;color:#FFFFFF;}
+		#documenter_sidebar ul a.current{background:#707698;color:#FFFFFF;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-doctors-find">
+	<div id="documenter_sidebar">
+	
+		<!--a href="#documenter_cover" id="documenter_logo"></a-->
+		
+		<a href="#documenter_cover"><img src="assets/images/logo.png" alt="Cab Booking System" style="width: 100%"></a>
+		
+		<ul id="documenter_nav">
+		
+			<li><a class="current" href="#documenter_cover">Start</a></li>	
+			<li><a href="#requirements" title="Requirements">Requirements</a></li>
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#home" title="Home">Home</a></li>
+			<li><a href="#admin_dashboard" title="Admin Dashboard">Admin Dashboard</a></li>
+			
+			
+			
+			<li><a href="#bookings" title="Bookings">Bookings</a></li>
+			<li><a href="#vehicle_settings" title="Vehicle Settings">Vehicle Settings</a></li>
+			<li><a href="#vehicle_categories" title="Vehicle Categories">Vehicle Categories</a></li>
+			<li><a href="#vehicle_features" title="Vehicle Features">Vehicle Features</a></li>
+			<li><a href="#locations" title="Locations">Locations</a></li>
+			<li><a href="#users" title="Users">Users</a></li>
+			<li><a href="#master_settings" title="Master Settings">Master Settings</a></li>
+			<li><a href="#coupons" title="Coupons">Coupons</a></li>
+			<li><a href="#pages" title="Dynamic Pages">Dynamic Pages</a></li>
+			<li><a href="#faqs" title="FAQS">FAQs</a></li>
+			<li><a href="#reports" title="Reports">Reports</a></li>
+			
+			<li><a href="#user_dashboard" title="User">User Dashboard</a></li>
+			<li><a href="#change_pwd" title="Change Password">Change Password</a></li>
+			
+			<li><a href="#book_vehicle" title="Book Vehicle">Book a Vehicle</a></li>
+			<li><a href="#my_bookings" title="My Bookings">My Bookings</a></li>
+			
+			<li><a href="#changes_log" title="Changes Log">Changes Log</a></li>
+			
+			
+			
+			
+			
+			
+		</ul>
+	</div>
+	
+	
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Digi Online Vehicle Booking System</h1>
+	<hr>
+	<ul>
+	<p>by:Conquerors Software Technologies Pvt. Ltd<br>
+	<a href="http://conquerorstech.net/">conquerorstech.net</a>
+	<br>email: <a href="mailto:&#115;&#97;&#109;&#115;&#111;&#110;&#64;&#99;&#111;&#110;&#113;&#117;&#101;&#114;&#111;&#114;&#115;&#116;&#101;&#99;&#104;&#46;&#110;&#101;&#116;">&#115;&#97;&#109;&#115;&#111;&#110;&#64;&#99;&#111;&#110;&#113;&#117;&#101;&#114;&#111;&#114;&#115;&#116;&#101;&#99;&#104;&#46;&#110;&#101;&#116;</a></p>
+	</ul>
+	<p>Thank you for purchasing my Project. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+	</section>
+	
+	
+	<section id="requirements">
+	<div class="page-header"><h3>Requirements</h3><hr class="notop"></div>
+		<h5>PHP >= 7.0.X</h5>
+	</section>
+	
+	
+	<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+		<h6 style="color:black">
+		
+	<h5 style="font-family:Lucida Sans Unicode;color:#1039ce">
+	BELOW UPDATES ONLY FOR NEW USERS WHO ARE NOT USING VERSION 1.
+	</h5>
+
+
+			<h5>Easy Installation Process : Localhost</h5>
+		<h6>Set up DOVBS through the following steps:<br></h6>
+		<h6 style="color:black">
+		<ul>
+		<li>Unzip and copy the script folder in your localhost.</li>
+		<li>Run the script path from any web browser. Ex : http://localhost/project_folder_name/install.</li>
+		<li>Provide database settings.</li>
+		<li>Run the installer.</li></ul></h6>
+
+		<h5>Easy Installation Process : Server</h5>
+		<h6>Set up DOVBS through the following steps:<br></h6>
+		<h6 style="color:black">
+		<ul>
+		<li>Unzip and copy the script folder in your root folder.</li>
+		<li>Create Database , user, password and assign privileges to user of all database</li>
+		<li>Note down the databse name, user name, password.</li>
+		<li>Run the script path from any web browser. Ex : http://my-domain/install.</li>
+		<li>Provide database settings.</li>
+		<li>Run the installer.</li></ul></h6>
+		
+		
+		
+		
+		
+		
+		<h5 style="font-family:Lucida Sans Unicode;color:#1039ce">
+	BELOW STEPS FOR USERS WHO ARE USING VERSION 1.
+	<br>
+	IF NEED PLEASE CONTACT US, WE WILL SETUP
+	</h5>
+	
+	<h5>Easy Installation Process : Server</h5>
+	<h6>Set up DOVBS through the following steps:<br></h6>
+		<h6 style="color:black">
+		<ul>
+		<li>Please take backup of your current project and database.</li>
+		<li>Unzip DOVBS V2 folder, place Updates.php file (folder/application/controllers/Updates.php) in server </li>
+		<li>Then run http://site-domain/updates/db_changes/</li>
+		
+		<li>After that, replace your current project folder with DOVBS V2 folder</li>
+		<li>In config database file, provide your database details.</li>
+		
+		</h6>
+		
+	
+		
+		<h6>After installing, Please remove Install folder in root<br></h6>
+		</p>
+	</section>
+	
+	
+	
+	
+	
+	<section id="home">
+	
+	<div class="page-header"><h3>Home</h3><hr class="notop"></div>
+	<h4>Overview</h4>
+	<p>
+		Digi Vehicle Booking System is a very convenient and cost- effective online taxi cab booking system that bridges the gap between taxi firm owners and their customers. It is a responsive taxi management software built on PHP with Codeigniter Framework; This is an effective, fast and responsive way for passengers to hire taxis and a powerful website to execute passenger requests. The major highlight of the software is the well-formed admin panel to monitor the entire process.
+		</p>
+	
+
+		<div align="center"><h4><u><b>Home</b></u></h4></div>
+		<img src="assets\images\home.png" style="width: 100%" >
+		<br>
+
+
+
+		<p>User can Register through web or social networks (facebook, google plus),</p>
+		<p>Wehn user Register into site,he will get an Activation link to his Email,then user will Activate his Account</p>
+		<div align="center"><h4><u><b>Register</b></u></h4></div>
+		<img src="assets\images\register.png" style="width: 100%" >
+		<br>
+
+
+		<p>Three types of Users are there</p>
+		<p>Admin : Full control of System</p>
+		<p>Executive: Full control of Bookings</p>
+		<p>Customer: End User can book vehicle </p>
+
+	</section>
+	
+
+
+
+
+
+
+
+<section id="admin_dashboard">
+	<div class="page-header"><h3>Admin Dashboard</h3><hr class="notop"></div>
+	<p>Admin have all the rights of System.</p>
+	
+	<p>
+	<img src="assets\images\admin1.png" style="width: 100%" >
+	</p>
+	
+	<p>Admin can set site Language</p>
+	<p>Admin can update his account details</p>
+	<p>Admin can view summary of all modules in his dashboard.</p>
+	
+</section>
+
+
+
+
+<section id="bookings">
+	<div class="page-header"><h3>Bookings</h3><hr class="notop"></div>
+	<p>Admin can done Booking for any user.</p>
+	<p>Admin can view Today Bookings or Bookings between specific dates or All Bookings </p>
+	<p>When Booking done, Initially booking status will be Pending. </p>
+	<p>Admin can change the status of a Booking like Confirm/Cancel.</p>
+	<p>Admin can view complete details of a Booking, Admin can Delete a Booking.</p>
+	<p>Email and SMS notifications when Booking done,Booking status changed or Cancelled or Deleted etc..</p>
+	
+	<p>
+	<img src="assets\images\admin2.png" style="width: 100%">
+	</p>
+</section>
+
+
+
+
+<section id="vehicle_settings">
+	<div class="page-header"><h3>Vehicle Settings</h3><hr class="notop"></div>
+	<p>Admin can Add,Update,Delete,Activate/De-Activate a Vehicle.</p>
+	<p>These Vehicles reflect at the time of Booking.</p>
+	<p>
+	<img src="assets\images\admin3.png" style="width: 100%">
+	</p>
+</section>
+
+
+
+
+<section id="vehicle_categories">
+	<div class="page-header"><h3>Vehicle Categories</h3><hr class="notop"></div>
+	<p>Admin can Add,Update,Delete,Activate/De-Activate a Vehicle Category</p>
+	<p>Vehicle Categories reflect at the time of Adding a Vehicle </p>
+	<p>
+	<img src="assets\images\admin4.png" style="width: 100%">
+	</p>
+</section>
+
+
+<section id="vehicle_features">
+	<div class="page-header"><h3>Vehicle Features</h3><hr class="notop"></div>
+	<p>Admin can Add,Update,Delete,Activate/De-Activate a Vehicle Feature</p>
+	<p>Vehicle Features reflect at the time of Adding a Vehicle</p>
+	<p>
+	<img src="assets\images\admin5.png" style="width: 100%">
+	</p>
+</section>
+
+
+
+
+
+<section id="locations">
+	<div class="page-header"><h3>Locations</h3><hr class="notop"></div>
+	<p>Admin can Add,Update,Delete,Activate/De-Activate a Location</p>
+	<p>Locations reflect at the time of Booking</p>
+	<p>
+	<img src="assets\images\admin6.png" style="width: 100%">
+	</p>
+	
+</section>
+
+
+
+<section id="users">
+	<div class="page-header"><h3>Users</h3><hr class="notop"></div>
+	<p>Customers</p>
+	<p>Admin can View,Create,Update,Activate/De-Activate,Delete a Customer</p>
+	<p>When admin create a Customer, he will be notified by Email</p>
+	<p>
+	<img src="assets\images\admin10.png" style="width: 100%">
+	</p>
+	
+	
+	<p>Executives</p>
+	<p>Admin can View,Create,Update,Activate/De-Activate,Delete an Executive</p>
+	<p>When admin create an Executive, he will be notified by Email</p>
+	<img src="assets\images\admin11.png" style="width: 100%">
+	</p>
+</section>
+
+
+
+
+
+
+
+<section id="master_settings">
+	<div class="page-header"><h3>Master Settings</h3><hr class="notop"></div>
+	
+	<h4>Site Settings</h4>
+	<p>Admin can set the settings which require for the site</p>
+	<p>
+	<img src="assets\images\admin21.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	
+	<h4>Testimonial Settings</h4>
+	<p>Admin can View,Add,Update,Delete,Activate/De-Activate a Testimonial</p>
+	<p>Testimonials reflect in front end.</p>
+	<p>
+	<img src="assets\images\testimonials.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>Email Settings</h4>
+	<p>Admin can set domain hosted server Email settings</p>
+	<p>
+	<img src="assets\images\admin23.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>Email Templates</h4>
+	<p>Admin can update Email templates content here</p>
+	<p>
+	<img src="assets\images\admin26.png" style="width: 100%" ><br>
+	</p>
+	
+	<h4>SMS Gateways</h4>
+	<p>Admin can update SMS Gateways Credentials</p>
+	<p>
+	<img src="assets\images\admin27.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>SMS Templates</h4>
+	<p>Admin can update SMS templates content</p>
+	<p>
+	<img src="assets\images\admin28.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>Paypal Settings</h4>
+	<p>Admin can set his paypal payment gateway account settings here</p>
+	<p>
+	<img src="assets\images\admin22.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>Stripe Settings</h4>
+	<p>Admin can set his stripe payment gateway account settings here</p>
+	<p>
+	<img src="assets\images\stripe.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>PayU Settings</h4>
+	<p>Admin can set his payU payment gateway account settings here</p>
+	<p>
+	<img src="assets\images\payu.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	
+	<h4>Package Settings</h4>
+	<p>Admin can View,Add,Update,Delete,Activate/De-Activate a Package</p>
+	<p>Packages reflect in front end, Customer can book a Package.</p>
+	<p>
+	<img src="assets\images\package.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>Waiting Time Settings</h4>
+	<p>Admin can View,Add,Update,Delete,Activate/De-Activate a Waiting time</p>
+	<p>Waiting Time Settings reflect in front end at the time of Booking.</p>
+	<p>
+	<img src="assets\images\waiting.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>Reasons to Book With Us</h4>
+	<p>Admin can set Reasons to book with us, instructions content here, which reflect in Front end</p>
+	<p>
+	<img src="assets\images\admin24.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>Social Network Settings</h4>
+	<p>Admin can set his System Social Networks here, which reflect in Front end</p>
+	<p>
+	<img src="assets\images\social.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>SEO Settings</h4>
+	<p>Admin can set SEO Settings here</p>
+	<p>
+	<img src="assets\images\admin25.png" style="width: 100%" ><br>
+	</p>
+	
+	
+	<h4>Placeholder Settings</h4>
+	<p>Admin can set Placeholder Settings here,which reflect in Front end in Booking Page</p>
+	<p>
+	<img src="assets\images\placeholder.png" style="width: 100%" ><br>
+	</p>
+	
+</section>
+
+
+<section id="coupons">
+	<div class="page-header"><h3>Coupons</h3><hr class="notop"></div>
+	<p>Admin can View,Add,Update,Delete,Activate/De-Activate a Coupon.</p>
+	<p>Admin can send SMS Notification to Customers at the time of creating coupon</p>
+	<p>Customer can Apply coupon at the time of Booking.</p>
+	<p>
+	<img src="assets\images\admin37.png" style="width: 100%">
+	</p>
+</section>
+
+
+<section id="pages">
+	<div class="page-header"><h3>Dynamic Pages</h3><hr class="notop"></div>
+	<p>Admin can View,Add,Update,Delete,Activate/De-Activate a Page.</p>
+	<p>Pages reflect in front end navigation</p>
+	<p>
+	<img src="assets\images\pages.png" style="width: 100%">
+	</p>
+</section>
+
+
+<section id="faqs">
+	<div class="page-header"><h3>FAQS</h3><hr class="notop"></div>
+	<p>Admin can Add,Update,Delete,Activate/De-Activate FAQ</p>
+	<p>FAQs reflect in front end</p>
+	<p>
+	<img src="assets\images\admin38.png" style="width: 100%">
+	</p>
+	
+</section>
+
+
+
+<section id="reports">
+	<div class="page-header"><h3>Reports</h3><hr class="notop"></div>
+	<p>Overall Vehicles</p>
+	<p>Admin can view Bookings summary vehicle wise</p>
+	<p>
+	<img src="assets\images\admin33.png" style="width: 100%">
+	</p>
+	
+	
+	<p>Payments</p>
+	<p>Admin can view All Bookings Amount here.</p>
+	<p>
+	<img src="assets\images\admin34.png" style="width: 100%">
+	</p>
+</section>
+
+
+
+<section id="user_dashboard">
+	<div class="page-header"><h3>User Dashboard</h3><hr class="notop"></div>
+	<p>User can update his Account Details</p>
+	<p>
+	<img src="assets\images\admin43.png" style="width: 100%">
+	</p>
+</section>
+
+<section id="change_pwd">
+	<div class="page-header"><h3>Change Password</h3><hr class="notop"></div>
+	<p>User can change his Account Password</p>
+	<p>
+	<img src="assets\images\admin50.png" style="width: 100%">
+	</p>
+</section>
+
+
+
+
+<section id="book_vehicle">
+	<div class="page-header"><h3>Book a Vehicle</h3><hr class="notop"></div>
+	<p>User select Source and Destination Locations (either Google or Local locations)</p>
+	<p>
+	<img src="assets\images\admin44.png" style="width: 100%">
+	</p>
+	<p>Then user can select a vehicle, he will provide rest of the details like pick-up date and time etc..and then go for Passenger Details</p>
+	<p>
+	<img src="assets\images\admin45.png" style="width: 100%">
+	</p>
+	
+	<p>User can apply coupon here, User can choose any Payment type</p>
+	
+	
+	
+	<p>Then user can click on Continue button.</p>
+	<p>
+	<img src="assets\images\admin46.png" style="width: 100%">
+	</p>
+	
+	<p>User Booking has been done Successfully.</p>
+	<p>
+	<img src="assets\images\booking_success.png" style="width: 100%">
+	</p>
+</section>
+
+
+
+
+
+
+
+<section id="my_bookings">
+	<div class="page-header"><h3>My Bookings</h3><hr class="notop"></div>
+	<p>User can view all his Bookings history and complete details of a booking here</p>
+	<p>User can Cancel his Booking</p>
+	<p>
+	<img src="assets\images\admin47.png" style="width: 100%">
+	</p>
+</section>
+
+
+
+
+<section id="changes_log">
+	<div class="page-header"><h3>Changes Log</h3><hr class="notop"></div>
+	<p>Email Templates</p>
+	<p>SMS Templates</p>
+	<p>Email Alerts</p>
+	<p>SMS Alerts</p>
+	<p>Multiple payment options like PayPal, PayU, Stripe payment integrated or Card/Cash</p>
+	<p>Social Logins (Facebook, Google plus)</p>
+	<p>Coupons</p>
+	<p>Tax Management</p>
+	<p>Ajax Datatables</p>
+	<p>Converted to Latest version (Codeigniter 3)</p>
+</section>
+
+
+
+
+
+	</div>
+</body>
+</html>

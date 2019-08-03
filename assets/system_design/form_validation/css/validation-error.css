@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*
+	* Author: Raghu Veer	
+	* Author URI: Under C
+	* Description: Form Validations Style Sheet
+	*/
+	
+label.error {
+    color: #f00;
+    font-weight: 200;
+    text-align: left;
+    width: 100% !important;
+}
+
+input.error, textarea.error, select.error {
+	border: 1px solid #f00;
+	color: #9d0c03;
+}

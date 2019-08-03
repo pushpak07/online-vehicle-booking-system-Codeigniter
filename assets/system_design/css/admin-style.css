@@ -1,0 +1,136 @@
+/*!
+ * ADMIN STYLE
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+span.badge.success {
+    background-color:#1f7904;
+}
+span.badge.danger {
+    background-color:#ff0000;
+}
+span.badge.new {
+    background-color:#06358c;
+}
+span.badge.process {
+    background-color:#e3b81c;
+}
+span.badge.delivered {
+    background-color:#26b81f;
+}
+span.badge.cancelled {
+    background-color:#ff0000;
+}
+/* DataTable Button Slide Box START*/
+.slideThree {
+	width: 80px;
+	height: 26px;
+	background: #fff;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	-o-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+.slideThree:after {
+	content: 'OFF';
+	font: 12px/26px Arial, sans-serif;
+	color: #000;
+	position: absolute;
+	right: 10px;
+	z-index: 0;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+}
+.slideThree:before {
+	content: 'ON';
+	font: 12px/26px Arial, sans-serif;
+	color: #60b483;
+	position: absolute;
+	left: 10px;
+	z-index: 0;
+	font-weight: bold;
+}
+.slideThree label {
+	display: block;
+	width: 34px;
+	height: 20px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+	cursor: pointer;
+	position: absolute;
+	/*top: -11px;*/
+	left: 3px;
+	z-index: 1;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+		background: #ccc;
+
+}
+.slideThree input[type=checkbox]:checked + label {
+	left: 43px;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	background: #14b9d6;
+	background: -webkit-linear-gradient(top, #14b9d6 0%, #14b9d6 40%, #14b9d6 100%);
+	background: -moz-linear-gradient(top, #14b9d6 0%, #14b9d6 40%, #14b9d6 100%);
+	background: -o-linear-gradient(top, #14b9d6 0%, #14b9d6 40%, #14b9d6 100%);
+	background: -ms-linear-gradient(top, #14b9d6 0%, #14b9d6 40%, #14b9d6 100%);
+	background: linear-gradient(top, #14b9d6 0%, #14b9d6 40%, #14b9d6 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead', GradientType=0 );
+}
+.slideThree input {
+	position: relative;
+	z-index: -2147483648;
+	display: none;
+}
+.greenSlide label {
+	background: #60b483;
+}
+.slideBlue:before {
+	color: #14b9d6
+}
+.slideDarkBlue label {
+	background: #259dab;
+}
+.slideDarkBlue:before {
+	color: #259dab;
+}
+.slideSkyBlue label {
+	background: #5d6bbd;
+}
+.slideSkyBlue:before {
+	color: #5d6bbd;
+}
+.slideRed label {
+	background: #f36a5a;
+}
+.slideRed:before {
+	color: #f36a5a;
+}
+/* DataTable Button Slide Box END*/	
+.digiCrud {
+    float: left;
+    margin: 0 10px;
+    position: inherit;
+    margin-bottom: 10px;
+}
+
+.vehicle-img {
+
+	width: 30%;
+    height: 20%;
+}
+
+.table-action {
+	display: flex;
+}

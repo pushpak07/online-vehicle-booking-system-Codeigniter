@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+=========================================================================
+Website             Digi Advanced Card Booking System,
+Author				conquerorstech,
+URL					http://conquerorstech.com,
+Designer			Naresh.E, UI Developer,
+Version				Bootstrap 3.3.1,
+Update Released		December 03, 2014
+=========================================================================*/
+
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(bootstrap-theme.css.map);
+@import url(bootstrap-theme.min.css);
+/*  /*@import url(cab.css); */ /* Yellow Theme 
+@import url(cab-2ntheame.css); /* Red Theme */ 
+@import url(BeatPicker.css);
+@import url(bootstrap-timepicker.css);
+@import url(bx-slider.css);
+@import url(timepicki.css);
+@import url(chosen.min.css);
+@import url(jquery.dataTables.css);
+@import url(reveal.css);
+
+
